@@ -1,0 +1,98 @@
+        *{
+            text-decoration: none;
+        }
+       
+        .navbar{
+            top: 0;
+            left: 0;
+            background-color: crimson;
+            width: 100%;
+            font-family:cursive;
+            padding: 0px 20px;
+            padding-right: 15px;
+            padding-left: 15px;
+            position: fixed;
+            z-index: 1000;
+            height: 70px;
+            box-sizing: border-box;
+
+        }
+        .navdiv{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo a{
+            font-size: 35px;
+            font-weight: 600px;
+            color: white;
+        }
+        li{
+            list-style-type: disc; 
+            display: inline-block;
+        }
+        li a{
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            margin-right: 25px;
+        }
+        button{
+            background-color: black;
+            margin-left: 10px;
+            border-radius: 10px;
+            padding: 10px;
+            width: 90px;
+        }
+        button a{
+            color: white;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .Städte{
+            font-size: 25px;
+            list-style: none;
+            left: 5px;
+        }
+        .logo{
+            position: relative;
+            font-size: 12px;
+
+        }
+        .İnfo{
+            font-size: 20px;
+        }
+        .wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+        max-width: 600px;
+        margin: 0 auto auto auto;
+        padding: 20px;
+        }
+        .form-group {
+        margin-bottom: 5px;
+        }    
+        label {
+        display: block;
+        margin-bottom: 5px;
+        }
+        input[type='text'],
+        input[type='email'],
+        textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        }
+        .header {
+            text-align: center;
+        }
+
+
+        
+
+        
